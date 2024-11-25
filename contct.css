@@ -1,0 +1,121 @@
+.header{
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 40%;
+}
+.header ul{
+    display: flex;
+    font-style: 25px;
+    list-style: none;
+    font-size: 23px;
+    gap: 50px;
+}
+.header span{
+    color: #11BCC7;
+}
+
+.header button{
+background-color:#11BCC7 ;
+width: 100px;
+height: 45px;
+margin-bottom: 8px;
+margin-right: 80px;
+}
+/* section two */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  /* Container styling */
+  .contact-container {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.2s ease;
+    margin-top: 96PX;
+  }
+
+  /* Heading styling */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  /* Input styling */
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  input:focus, textarea:focus {
+    border-color: #4CAF50;
+  }
+
+  /* Button styling */
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .contact-container {
+      padding: 15px;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0);}
+}
